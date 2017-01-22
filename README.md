@@ -6,6 +6,7 @@ TO RUN, TYPE THIS IN YOUR COMMAND LINE INTERFACE WHEN IN THE PROJECT DIRECTORY:
 java -jar MusicEditor.jar (filename) (gui-type)
 
 Running "zoot-lw.txt" with the "combined" gui view is recommended.
+
 ----------------------------------------
 Changes from HW5 to MusicEditorModelImpl:
 
