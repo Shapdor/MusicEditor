@@ -6,6 +6,9 @@ TO RUN, TYPE THIS IN YOUR COMMAND LINE INTERFACE WHEN IN THE PROJECT DIRECTORY:
 java -jar MusicEditor.jar (filename) (gui-type)
 
 Running "zoot-lw.txt" with the "combined" gui view is recommended.
+
+# Changes
+
 ----------------------------------------
 Changes from HW5 to MusicEditorModelImpl:
 
@@ -41,14 +44,6 @@ Changes from HW6 to Music Editor Views:
 
 ----------------------------------------
 
-Changes from HW7:
-
-About the design:
-
-The music editor is designed in the Model-View-Controller design pattern.
-
-----------------------------------------
-
 Changes in HW8 view package for Supply Code:
 
 -Changed GetInputString to GetInputStrings to remove requirement to parse input, as per customers' demands. This enabled
@@ -65,7 +60,12 @@ Changes in HW8 to adapt to Provided Code
 
 ----------------------------------------
 
+# Design
+
+The music editor is designed in the Model-View-Controller design pattern.
+
 ---MODEL---
+
 The model consists of a few classes - the model itself, Beat, Note, NoteColumn,
 a ColumnComparator, and an enum for Pitch.
 
@@ -156,6 +156,5 @@ respective views.
 
 The code in the provider package was supplied by another group that had the same assignment. In the View package, we
 provide an adapter class that adapts our model and controller to the providers' views. 
-
 
 
