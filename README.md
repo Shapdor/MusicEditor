@@ -67,6 +67,7 @@ Changes in HW8 to adapt to Provided Code
 ----------------------------------------
 
 ---MODEL---
+
 The model consists of a few classes - the model itself, Beat, Note, NoteColumn,
 a ColumnComparator, and an enum for Pitch.
 
